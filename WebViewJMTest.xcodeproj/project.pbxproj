@@ -21,6 +21,10 @@
 		B0906D211892DCD700F31153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0906D031892DCD700F31153 /* UIKit.framework */; };
 		B0906D291892DCD700F31153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0906D271892DCD700F31153 /* InfoPlist.strings */; };
 		B0906D2B1892DCD700F31153 /* WebViewJMTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0906D2A1892DCD700F31153 /* WebViewJMTestTests.m */; };
+		B0906D391892DD8800F31153 /* jquery.mobile-1.4.0.js in Resources */ = {isa = PBXBuildFile; fileRef = B0906D341892DD8800F31153 /* jquery.mobile-1.4.0.js */; };
+		B0906D3A1892DD8800F31153 /* jquery-1.10.2.js in Resources */ = {isa = PBXBuildFile; fileRef = B0906D351892DD8800F31153 /* jquery-1.10.2.js */; };
+		B0906D3B1892DD8800F31153 /* jquery-1.10.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B0906D361892DD8800F31153 /* jquery-1.10.2.min.js */; };
+		B0906D3D1892DD8800F31153 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B0906D381892DD8800F31153 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		B0906D261892DCD700F31153 /* WebViewJMTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewJMTestTests-Info.plist"; sourceTree = "<group>"; };
 		B0906D281892DCD700F31153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0906D2A1892DCD700F31153 /* WebViewJMTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJMTestTests.m; sourceTree = "<group>"; };
+		B0906D341892DD8800F31153 /* jquery.mobile-1.4.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.4.0.js"; sourceTree = "<group>"; };
+		B0906D351892DD8800F31153 /* jquery-1.10.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.10.2.js"; sourceTree = "<group>"; };
+		B0906D361892DD8800F31153 /* jquery-1.10.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.10.2.min.js"; sourceTree = "<group>"; };
+		B0906D381892DD8800F31153 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		B0906D051892DCD700F31153 /* WebViewJMTest */ = {
 			isa = PBXGroup;
 			children = (
+				B0906D341892DD8800F31153 /* jquery.mobile-1.4.0.js */,
+				B0906D351892DD8800F31153 /* jquery-1.10.2.js */,
+				B0906D361892DD8800F31153 /* jquery-1.10.2.min.js */,
+				B0906D381892DD8800F31153 /* index.html */,
 				B0906D0E1892DCD700F31153 /* AppDelegate.h */,
 				B0906D0F1892DCD700F31153 /* AppDelegate.m */,
 				B0906D111892DCD700F31153 /* Main.storyboard */,
@@ -229,7 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0906D181892DCD700F31153 /* Images.xcassets in Resources */,
+				B0906D3D1892DD8800F31153 /* index.html in Resources */,
 				B0906D0A1892DCD700F31153 /* InfoPlist.strings in Resources */,
+				B0906D391892DD8800F31153 /* jquery.mobile-1.4.0.js in Resources */,
+				B0906D3A1892DD8800F31153 /* jquery-1.10.2.js in Resources */,
+				B0906D3B1892DD8800F31153 /* jquery-1.10.2.min.js in Resources */,
 				B0906D131892DCD700F31153 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewJMTest/WebViewJMTest-Prefix.pch";
 				INFOPLIST_FILE = "WebViewJMTest/WebViewJMTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewJMTest/WebViewJMTest-Prefix.pch";
 				INFOPLIST_FILE = "WebViewJMTest/WebViewJMTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
